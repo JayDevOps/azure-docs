@@ -1,9 +1,9 @@
 ---
 title: Build a Java and MySQL web app in Azure
-description: Learn how to get a Java app that connects to the Azure MySQL database service working in Azure appservice .
+description: Learn how to get a Java app that connects to the Azure MySQL database service working in Azure appservice with Azure Active Directory authentication .
 services: app-service\web
 documentationcenter: Java
-author: bbenz
+author: jaydevops
 manager: jeffsand
 editor: jasonwhowell
 ms.assetid: 
@@ -12,14 +12,14 @@ ms.workload: web
 ms.tgt_pltfrm: na
 ms.devlang: java
 ms.topic: tutorial
-ms.date: 05/22/2017
+ms.date: 11/29/2017
 ms.author: bbenz
 ms.custom: mvc
 ---
 
-# Build a Java and MySQL web app in Azure
+# Build a Java and MySQL web app in Azure with Azure Active Directory
 
-This tutorial shows you how to create a Java web app in Azure and connect it to a MySQL database. 
+This tutorial shows you how to create a Java web app in Azure and connect it to a MySQL database with Azure Active Directory. 
 When you are finished, you will have a [Spring Boot](https://projects.spring.io/spring-boot/) application storing data in [Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/overview) running on [Azure App Service Web Apps](app-service-web-overview.md).
 
 ![Java app running in Azure appservice](./media/app-service-web-tutorial-java-mysql/appservice-web-app.png)
